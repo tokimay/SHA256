@@ -81,7 +81,6 @@ def doHash(input_: str) -> str:
 
             result = ((term1 + term1XOR + term3 + term4XOR) % 2 ** 32)
             bytearrayInput_schedule[i + 16] = result.to_bytes(8, 'big')
-            print(f'w{i + 16}: ', result, '|', bin(result).lstrip('0b').zfill(32))
         a = h0
         b = h1
         c = h2
