@@ -672,3 +672,5 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
+
+This software is licensed under GPLv3. If you use or modify this project, you must include a reference to the original repository: https://github.com/tokimay/SHA256
